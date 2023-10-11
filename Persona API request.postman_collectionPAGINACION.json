@@ -1,0 +1,340 @@
+{
+	"info": {
+		"_postman_id": "39030799-b1ee-4075-bf55-8153a246e7d5",
+		"name": "Persona API request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29622598"
+	},
+	"item": [
+		{
+			"name": "Persona",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetOne",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/personas/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"nombre\":\"tomas\",\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/personas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/persona",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"persona"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/personas/2",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"personas",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SEARCHPAGED",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Localidades",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/localidades",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetOne",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/localidades/1",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"localidades",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"denominacion\": \"Guaymallen\"\r\n}"
+						},
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/localidades",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/localidades/1",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"localidades",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autores",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/autores",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetOne",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/autores/1",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"autores",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"Liliana\",\r\n    \"apellido\": \"boldo\"\r\n    \"biografia\": \"es profesora\"\r\n}"
+						},
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/autores",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http:/localhost:8080/api/v1/localidades/2",
+							"host": [
+								"http"
+							],
+							"port": "",
+							"path": [
+								"localhost:8080",
+								"api",
+								"v1",
+								"localidades",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
